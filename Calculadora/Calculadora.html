@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+
+</head>
+<body background="fonduki.jpg">
+    <h1>
+        Calculadora
+    </h1>
+    <form class="grid-container">
+
+            <input class="item1 uno"  id="resultado" ></input>
+            <button class="item2 dos" type="button" value="C" onclick="clearScreen()">C</button>
+            <button class="item3 tres btn" type="button" value="" onclick=""></button>  
+            <button class="item4 cuatro btn" type="button" value=" " onclick=" "></button>
+            <button class="item5 cinco btn" type="button" value="7" onclick="display(7)"> 7 </button>
+            <button class="item6 seis btn" type="button" value="8" onclick="display(8)"> 8 </button>
+            <button class="item7 siete item btn" type="button" value="9" onclick="display(9)"> 9 </button>
+            <button class="item8 ocho item btn" type="button" value="4" onclick="display(4)"> 4 </button>
+            <button class="item9 nueve item btn" type="button" value="5" onclick="display(5)"> 5 </button>
+            <button class="item10 diez item btn" type="button" value="6" onclick="display(6)"> 6 </button>
+            <button class="item11 once item btn" type="button" value="1" onclick="display(1)"> 1 </button>
+            <button class="item12 doce item btn" type="button" value="2" onclick="display(2)"> 2 </button>
+            <button class="item13 trece item btn" type="button" value="3" onclick="display(3)"> 3 </button>
+            <button class="item14 catorce item btn"></button>
+            <button class="item15 quince item btn" type="button" value="0" onclick="display(0)"> 0 </button>
+            <button class="item16 diesciseis item btn" type="button" value="." onclick="display('.')"> . </button>
+            <button class="item17 diescisiete item" type="button" value="/" onclick="display('/')"> ÷ </button>
+            <button class="item18 diesciocho item" type="button" value="*" onclick="display('*')"> X </button>
+            <button class="item19 diescinueve item" type="button" value="-" onclick="display('-')"> - </button>
+            <button class="item20 veinte item" type="button" value="+" onclick="display('+')"> + </button>
+            <button class="item21 veintiuno item" type="button" value="=" onclick="solve()"> = </button>
+    </form>
+</body>
+</html>

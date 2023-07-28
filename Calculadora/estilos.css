@@ -1,0 +1,89 @@
+h1 {
+
+    text-align: center;
+    font-size: 80px;
+    color: #F7ECDE;
+    font-family: 'Satisfy', cursive;
+}
+
+.item1 { grid-area: uno; }
+.item2 { grid-area: dos; }
+.item3 { grid-area: tres; }
+.item4 { grid-area: cuatro; }
+.item5 { grid-area: cinco; }
+.item6 { grid-area: seis; }
+.item7 { grid-area: siete; }
+.item8 { grid-area: ocho; }
+.item9 { grid-area: nueve; }
+.item10 { grid-area: diez; }
+.item11 { grid-area: once; }
+.item12 { grid-area: doce; }
+.item13 { grid-area: trece; }
+.item14 { grid-area: catorce; }
+.item15 { grid-area: quince; }
+.item16 { grid-area: diesciseis; }
+.item17 { grid-area: diescisiete; }
+.item18 { grid-area: diesciocho; }
+.item19 { grid-area: diescinueve; }
+.item20 { grid-area: veinte; }
+.item21 { grid-area: veintiuno; }
+
+.grid-container {
+display: grid;
+grid-template-areas:
+    'uno uno uno uno'
+    'dos tres cuatro diescisiete'
+    'cinco seis siete diesciocho'
+    'ocho nueve diez diescinueve'
+    'once doce trece veinte'
+    'catorce quince diesciseis veintiuno';
+gap: 20px;
+background-color: #570A57;
+padding: 40px;
+}
+
+form{
+    height: 400px;
+    max-height: 200%;
+    width: 350px;
+    max-width: 150%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 0 30px 20px rgba(0,0,0,0.3);
+    position:relative;
+    border-radius: 50px;
+}
+
+.uno{
+    height: 100px;
+    width: 350px;
+    font-size: 30px;
+    background-color: #FFE1E1;
+}
+
+.diesciseis, .diescisiete, .diesciocho, .diescinueve, .veinte, .veintiuno{
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn{
+    background-color: #FFACC7;
+}
+
+.item2, .btn{
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item2{
+    background-color: #6867AC;
+}
+
+.item14{
+    background-color: #FFACC7;
+}
